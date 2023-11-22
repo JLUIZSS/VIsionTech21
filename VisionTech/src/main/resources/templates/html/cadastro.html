@@ -1,0 +1,61 @@
+
+<div th:replace="/html/topo"></div>
+<link rel="stylesheet" href="/css/PaginaInicial.css">
+<link rel="stylesheet" href="/css/cadastro.css">
+
+    <div class="container">
+        <h1>Faça seu Cadastro!</h1>
+        
+        
+   
+    <div id="login-box">
+        <div class="left">
+	<form name="cadastrar_usuario" class="form-horizontal"  method="POST" style="margin: 10px" th:action="@{/cadastrar_usuario}" th:object="${cadastroModel}">		
+          <h1>Cadastro</h1>
+          
+          <input type="text" name="nome" placeholder="Nome" />
+          <br>
+
+          <input type="text" name="email" placeholder="E-mail" />
+          <br>
+
+          <input type="text" name="usuario" placeholder="Digite o seu nome de usuario" />
+                   <br>
+          <br><br>
+          <input type="password" name="senha" placeholder="Senha" />
+          <br>
+
+    
+          
+          <input type="submit" name="signup_submit" value="Cadastrar" />
+	</form>
+        </div>
+        
+        <div class="right">
+          <span class="loginwith">Sign in with<br />social network</span>
+          
+          <button class="social-signin facebook">Login pelo facebook</button>
+          
+            <br>
+            <br>
+            <br>
+            <br>
+          
+          <button class="social-signin twitter">Login pelo Twitter</button>
+
+            <br>
+            <br>
+            <br>
+            <br>
+
+          <button class="social-signin google">Login pelo Google+</button>
+
+
+        </div>
+        <div class="or">OU</div>
+      </div>
+
+
+    </div>
+    <br></br>
+    <div th:replace="/html/footer"></div>
