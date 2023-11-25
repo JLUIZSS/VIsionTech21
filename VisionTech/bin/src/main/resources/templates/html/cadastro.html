@@ -10,27 +10,25 @@
    
     <div id="login-box">
         <div class="left">
+	<form name="cadastrar_usuario" class="form-horizontal"  method="POST" style="margin: 10px" th:action="@{/cadastrar_usuario}" th:object="${cadastroModel}">		
           <h1>Cadastro</h1>
           
-          <input type="text" name="username" placeholder="Nome" />
+          <input type="text" name="nome" placeholder="Nome" />
           <br>
 
           <input type="text" name="email" placeholder="E-mail" />
           <br>
 
-          <input type="password" name="username" placeholder="Digite o seu nome de usuario" />
-          <br>
-
-          <input type="date" name="data de nascimento" placeholder="data de nascimento" />
-          <br>
+          <input type="text" name="usuario" placeholder="Digite o seu nome de usuario" />
+                   <br>
           <br><br>
-          <input type="password" name="password" placeholder="Senha" />
+          <input type="password" name="senha" placeholder="Senha" />
           <br>
 
-          <input type="password" name="password2" placeholder="Digite a sua senha novamente" />
-<br>
+    
           
-          <input type="submit" name="signup_submit" value="Fazer Login" />
+          <input type="submit" name="signup_submit" value="Cadastrar" />
+	</form>
         </div>
         
         <div class="right">

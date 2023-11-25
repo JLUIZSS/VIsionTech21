@@ -300,6 +300,7 @@ footer {
         text-align: center;
         align-items: center;
     }
+    
 h1 {
 	text-align: center;
 	color: rgb(56, 56, 56);
@@ -308,5 +309,9 @@ h1 {
  hr {
 	 border:2px solid rgb(56, 56, 56);
 	 
+ }
+ 
+ a:visited{
+	 color:white;
  }
  
