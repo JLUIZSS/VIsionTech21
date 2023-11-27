@@ -1,0 +1,166 @@
+*{
+    margin: 10;
+    padding: 10;
+    text-decoration: none;
+}
+
+head,body {
+    background-image:linear-gradient(to bottom, yellow, #ffa600fd ,#2f2f2f, black);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height:1000px;
+}
+
+
+.formularioContato { 
+    max-width:700px; 
+    height:auto; 
+    float:none; 
+    margin:auto; 
+    padding:1em; 
+    margin-bottom:1em; 
+    border-radius:6px; 
+    background:white; 
+    box-shadow: 2px 1px 2px 1px #494949; 
+    position:relative; 
+}
+
+.formularioContato:before { 
+
+    width:0; 
+    height:0; 
+    border:15px solid transparent; 
+    border-bottom-color:#fff; 
+    content:""; 
+    position:absolute; 
+    left:6%; 
+    top:-4.5%; 
+    margin-top:-4px; 
+    margin-left:6px; 
+    z-index:2;
+
+}
+
+.formularioContato label  { 
+
+    float:left; 
+    width:150%; 
+    margin-bottom:1.2em; 
+
+}
+
+.formularioContato label span {
+
+    width: 100%;
+    float: left;
+    color: black;
+    margin-bottom: 6px;
+    
+
+}
+
+.formularioContato label input  { 
+
+    font-size:1em; 
+    color:black; 
+    font-family:'open_sansregular'; 
+    outline:none; 
+    border:1px #dee5ed solid; 
+    border-radius:4px; 
+    padding:0.6em; 
+    transition: 0.3s;  
+
+}
+
+.formularioContato label select { 
+
+    font-size:1em; 
+    color:black; 
+    border:1px #dee5ed solid; 
+    border-radius:4px; 
+    padding:0.6em; 
+    outline:none; 
+    transition: 0.3s;  
+
+}
+
+.formularioContato label textarea { 
+
+    font-size:1em; 
+    color:black; 
+    border:1px #dee5ed solid; 
+    border-radius:4px; 
+    padding:0.6em; 
+    outline:none;
+    transition: 0.3s;   
+
+}
+
+.formularioContato label input:focus    { box-shadow:0 0 5px 0px rgb(178,216,231); border:1px rgb(37,174,230) solid; color:rgb(37,174,230);}
+.formularioContato label select:focus   { box-shadow:0 0 5px 0px rgb(178,216,231); border:1px rgb(37,174,230) solid; }
+.formularioContato label textarea:focus { box-shadow:0 0 5px 0px rgb(0, 12, 16); border:1px rgb(37,174,230) solid; color:rgb(37,174,230);}
+
+.formularioContato button.btn-envia { 
+
+    background-color:#165da0; 
+    width:100%; display:block; 
+    margin:auto; cursor:pointer; 
+    border-radius:4px;  
+    border:0; 
+    padding:0.8em 0em; 
+    color:#fff; 
+    font-size:1.3em; 
+    font-family:'open_sansbold'; 
+    text-align: center;
+    transition: 0.3s;   
+
+}
+
+.formularioContato button.btn-envia:hover { 
+
+    background-color:#333; 
+
+}
+
+
+.s-m {
+
+   margin: 1%;
+    font-size: 23px;
+    position: absolute;
+    top: 70%;
+    left: 3%;
+    
+   
+   
+}
+
+
+
+img {
+
+   
+
+  
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: -3px;
+    border: 2px solid black;
+}
+
+
+h1, h3 {
+    color: rgb(65, 63, 63);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    margin: 20px;
+
+    
+}
+p {
+color:white;
+}
