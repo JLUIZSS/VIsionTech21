@@ -2,9 +2,11 @@
 <link rel="stylesheet" href="/css/PaginaInicial.css">
 <link rel="stylesheet" href="/css/login.css">
 
+
+
 <div id="login-box">
         <div class="left">
-            
+     <form name="/logar" class="form-horizontal"  method="POST" style="margin: 10px" th:action="@{/logar}" th:object="${loginModel}">       
           <h1>Login</h1>
           
           <input type="text" name="username" placeholder="Digite o seu nome de usuario" />
@@ -14,8 +16,9 @@
           <br>
           <br>
           
-          <input type="submit" name="signup_submit" value="Entrar " />
+          <input type="submit" name="signup_submit" value="Entrar" />
 
         </div>
 </div>
+</form>
 <div th:replace="/html/footer"></div>

@@ -27,30 +27,36 @@
 
     
           
-          <input type="submit" name="signup_submit" value="Cadastrar" />
+          <input type="submit" name="signup_submit" value="Cadastrar" onclick="return confirm ('Cadastro efetuado com sucesso!')" />
 	</form>
         </div>
         
         <div class="right">
           <span class="loginwith">Sign in with<br />social network</span>
           
-          <button class="social-signin facebook">Login pelo facebook</button>
+          <button class="social-signin facebook"><a href="https://pt-br.facebook.com/login/device-based/regular/login/">
+			  Login pelo facebook</a></button>
           
             <br>
             <br>
             <br>
+                     
+          <button class="social-signin twitter"><a href="https://twitter.com/i/flow/login">
+			  Login pelo Twitter</a></button>
+
+            <br> 
             <br>
+            <br>
+
+          <button class="social-signin google"><a href="https://accounts.google.com/InteractiveLogin/signinchooser?continue=https%3A%2F%2Fwww.google.com%2F%3Fhl%3DPT&ec=GAZAmgQ&hl=pt-BR&passive=true&ifkv=ASKXGp0p6wD6jVlqj-lnc9_O5g2zPaBaspfojyox2WZ2isxXWqcIPg9ntZjJpjsJQAxT0io7zwiK&theme=glif&flowName=GlifWebSignIn&flowEntry=ServiceLogin">
+			  
+		  Login pelo Google </a></button>
+            <br>
+            <br>
+            <br>
+            <button class="social-signin cliente"><a href="/login">
+			  Já é cliente? </a></button>
           
-          <button class="social-signin twitter">Login pelo Twitter</button>
-
-            <br>
-            <br>
-            <br>
-            <br>
-
-          <button class="social-signin google">Login pelo Google+</button>
-
-
         </div>
         <div class="or">OU</div>
       </div>

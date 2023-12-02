@@ -10,35 +10,39 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table (name="login",schema ="visiotech")
+@Table (name="login",schema ="visiontech")
 public class LoginModel implements Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 private static final long serialVersionVID =1L;
 
 @Id
 
 @Column(name="senha")
-private Integer senha;
+private String senha;
 @Column(name="repitasenha")
-private Integer repitasenha;
+private String repitasenha;
 @Column(name="usuario")
-private Integer usuario;
-
-public Integer getSenha() {
+private String usuario;
+public String getSenha() {
 	return senha;
 }
-public void setSenha(Integer senha) {
+public void setSenha(String senha) {
 	this.senha = senha;
 }
-public Integer getRepitasenha() {
+public String getRepitasenha() {
 	return repitasenha;
 }
-public void setRepitasenha(Integer repitasenha) {
+public void setRepitasenha(String repitasenha) {
 	this.repitasenha = repitasenha;
 }
-public Integer getUsuario() {
+public String getUsuario() {
 	return usuario;
 }
-public void setUsuario(Integer usuario) {
+public void setUsuario(String usuario) {
 	this.usuario = usuario;
 }
 

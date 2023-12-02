@@ -10,7 +10,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table (name="contato",schema ="visiotech")
+@Table (name="contato",schema ="visiontech")
 public class ContatoModel implements Serializable {
 /**
 	 * 

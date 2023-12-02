@@ -10,7 +10,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table (name="empresa",schema ="visiotech")
+@Table (name="empresa",schema ="visiontech")
 public class EmpresaModel implements Serializable {
 private static final long serialVersionVID =1L;
 

@@ -10,7 +10,7 @@
 
 
 
-        <form action="#" method="post" enctype="multipart/form-data">
+        <form name="contato_usuario" class="form-horizontal"  method="POST" style="margin: 10px" th:action="@{/contato_usuario}" th:object="${contatoModel}">
 
             <label>
                 <span><i class="icon icon-user-1"></i> Nome</span>

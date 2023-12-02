@@ -1,0 +1,65 @@
+header,body {
+  background-image: linear-gradient(to bottom, yellow, #ffa600fd ,#2f2f2f, black);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+    .produto {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.produto img {
+    position: absolute center;
+    height: 150px;
+    width: 150px;
+}
+
+.preco {
+    font-weight: bold;
+    color: #ca2a05;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: center;
+}
+
+button:hover {
+    background-color: #0056b3;
+    display: center;
+}
+
+section {
+    display: inline-block;
+
+}
+
+.produto,h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.container-button,h4 {
+        text-align:absolute center;
+        padding: 0px;
+        text-decoration: none;
+        color: #fff; 
+        font-weight: bold;
+        font-size: 16px;    
+        cursor: pointer;
+        display: inline-block;
+
+}
+h2 {
+    color:white;
+}
+
